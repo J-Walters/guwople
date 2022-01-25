@@ -260,8 +260,8 @@ function App() {
     setCurrentStreak,
     setLongestStreak,
   ])
-  const congratsLyrics = ['Guwop still Trap God and they quote me more than Dr. Seuss!', 'So icy!!', `I'm so proud of you. wop!`];
-  const sadLyrics = [`I had the county blues, now every day, I'm countin' the blues`]
+  const congratsLyrics = ['Guwop still Trap God and they quote me more than Dr. Seuss!', 'So icy!!', `I'm so proud of you. wop!`, `24's on yo car, you's a trap star!`, `Cockiest, I'm rockin' this cause ain't nobody hot as this!`];
+  const sadLyrics = [`I had the county blues, now every day, I'm countin' the blues`, `You see me smiling but I'm crying on the inside.`, `Go and chop them bands off, they gonna sing a sad song.`]
   const congratsLyric = congratsLyrics[Math.floor(Math.random() * congratsLyrics.length)]
   const sadLyric = sadLyrics[Math.floor(Math.random() * sadLyrics.length)]
 
